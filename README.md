@@ -1,12 +1,16 @@
-<h1><img src="https://cdn-icons-png.flaticon.com/512/3104/3104000.png" height="54" align="middle"> Installing</h1>
+<h1><img src="https://cdn-icons-png.flaticon.com/512/3104/3104000.png" height="54" align="middle">Start</h1>
 
-Firstly you have to install requirements for using bot
+Firstly you have clone repo
+
+<pre lang="bash">git clone https://github.com/AmoreForever/pc-controller-bot</pre>
+
+Then install requirements
 
 <pre lang="bash"> pip install -r requirements.txt </pre>
 
 Start your bot
 
-<pre lang="bash"> python3 main.py </pre>
+<b>Just open <i>start.sh</i> file</b>
 
 <h1><img src="https://cdn-icons-png.flaticon.com/512/627/627495.png" height="54" align="middle"> Configuration</h1>
 
@@ -19,14 +23,7 @@ tg_id = YOUR USER ID
 </pre>
 <h1><img src="https://cdn-icons-png.flaticon.com/512/4149/4149678.png" height="54" align="middle"> Commands</h1>
 
-Here are the commands that will help you manage your PC more easily
-
-<ul>
- <li><code>/control</code> - Displays a menu to control your PC</li>
- <li><code>/say <args></code> - Will he say something</li>
- <li><code>/open_link <args></code> - Opens the link in the browser</li>
- <li><code>/play_yt <args></code> - Open YouTuve video in the browser</li>
-</ul>
+When you send the <code>/help</code> command, you can get all the available commands
 
 
 
